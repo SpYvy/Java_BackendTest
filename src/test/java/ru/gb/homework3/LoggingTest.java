@@ -1,0 +1,55 @@
+package ru.gb.homework3;
+
+import io.restassured.RestAssured;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import static io.restassured.RestAssured.given;
+
+public class LoggingTest extends AbstractClass{
+    @BeforeAll
+    static void setUp(){
+        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+    }
+
+    @Test
+    void getRequestLogTest() {
+        given()
+                .queryParam("apiKey", getApiKey())
+                .queryParam("includeNutrition", "false")
+                .log().method()
+                .log().params()
+                .when()
+                .get("https://api.spoonacular.com/recipes/716429/information");
+
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++=");
+
+        given()
+                .queryParam("apiKey", getApiKey())
+                .queryParam("includeNutrition", "false")
+                .log().all()
+                .when()
+                .get("https://api.spoonacular.com/recipes/716429/information");
+    }
+
+    @Test
+    void getResponseLogTest(){
+        given()
+                .queryParam("apiKey", getApiKey())
+                .queryParam("includeNutrition", "false")
+                .log().all()
+                .when()
+                .get("https://api.spoonacular.com/recipes/716429/information")
+                .prettyPeek(); //Логирование помимо запроса еще и ответа
+    }
+
+    @Test
+    void getErrorTest(){
+        given()
+                .queryParam("apiKey", getApiKey())
+                .queryParam("includeNutrition", "false")
+                .when()
+                .get("https://api.spoonacular.com/recipes/716429/information")
+                .then().statusCode(201);
+    }
+}
