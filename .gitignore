@@ -38,3 +38,4 @@ build/
 .DS_Store
 /src/main/java/ru/gb/homework1/Divide_response.txt
 /src/main/java/ru/gb/homework1/Divide(If IntA - valid)_response.txt
+/.idea/uiDesigner.xml

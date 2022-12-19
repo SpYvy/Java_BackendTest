@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eb84ce-b0cc-4063-809b-c60b773933af" name="Changes" comment="homework2 done">
+    <list default="true" id="b0eb84ce-b0cc-4063-809b-c60b773933af" name="Changes" comment="lesson3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework3/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework3/HW2PostmanCasesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework3/LoggingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework3/SpoonacularApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -29,18 +41,113 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson3/ExampleTest.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.5421965",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.file": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson3/ExampleTest.java",
+    "two.files.diff.last.used.folder": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson3"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\Java_BackendTest\src\main\java\ru\gb\homework2" />
       <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\Java_BackendTest\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ru.gb.homework3 in Java_BackendTest">
+    <configuration name="HW2PostmanCasesTest.frenchCuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BackendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.homework3" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework3.HW2PostmanCasesTest" />
+      <option name="METHOD_NAME" value="frenchCuisineTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW2PostmanCasesTest.italianCuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BackendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.homework3" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework3.HW2PostmanCasesTest" />
+      <option name="METHOD_NAME" value="italianCuisineTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW2PostmanCasesTest.mediterraneanCuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BackendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.homework3" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework3.HW2PostmanCasesTest" />
+      <option name="METHOD_NAME" value="mediterraneanCuisineTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW2PostmanCasesTest.mexicanCuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BackendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.homework3" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework3.HW2PostmanCasesTest" />
+      <option name="METHOD_NAME" value="mexicanCuisineTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.gb.homework3 in Java_BackendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BackendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.homework3" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ru.gb.homework3 in Java_BackendTest" />
+        <item itemvalue="JUnit.HW2PostmanCasesTest.mexicanCuisineTest" />
+        <item itemvalue="JUnit.HW2PostmanCasesTest.frenchCuisineTest" />
+        <item itemvalue="JUnit.HW2PostmanCasesTest.mediterraneanCuisineTest" />
+        <item itemvalue="JUnit.HW2PostmanCasesTest.italianCuisineTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670960114776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson3">
+      <created>1671385738789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671385738789</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +243,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="lesson1" />
     <MESSAGE value="homework1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework1" />
+    <MESSAGE value="lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson3" />
   </component>
 </project>
