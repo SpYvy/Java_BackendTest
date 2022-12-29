@@ -1,9 +1,10 @@
 package ru.gb.lesson4;
 
-import lesson4.builder.MyClass;
-import lesson4.builder.MyClassBuilder;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import ru.gb.lesson4.builder.MyClass;
+import ru.gb.lesson4.builder.MyClassBuilder;
 
 public class ExampleMyClassBuilderTest {
 

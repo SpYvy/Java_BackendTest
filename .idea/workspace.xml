@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eb84ce-b0cc-4063-809b-c60b773933af" name="Changes" comment="lesson3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/AddShoppingItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/AddShoppingItemResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/ConnectUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/ConnectUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/CuisineResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/DeleteItemStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/DishesQueryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/builder/AddShoppingItemRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/builder/ConnectUserRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework4/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework4/HW2PostmanCasesRefactoringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework4/SpoonacularChainApiTest.java" afterDir="false" />
+    <list default="true" id="b0eb84ce-b0cc-4063-809b-c60b773933af" name="Changes" comment="homework4 done">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/ExampleMyClassBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson4/ExampleMyClassBuilderTest.java" afterDir="false" />
     </list>
@@ -35,10 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/ru/gb/homework4/SpoonacularChainApiTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson4/AbstractTest.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.5421965",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "two.files.diff.last.used.file": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson4/AbstractTest.java",
-    "two.files.diff.last.used.folder": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson4/AbstractTest.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5421965&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson4/AbstractTest.java&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson3&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.gb.homework4.builder" />
@@ -259,6 +251,7 @@
     <MESSAGE value="lesson1" />
     <MESSAGE value="homework1" />
     <MESSAGE value="lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson3" />
+    <MESSAGE value="homework4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework4 done" />
   </component>
 </project>
