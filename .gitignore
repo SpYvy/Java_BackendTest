@@ -39,3 +39,5 @@ build/
 /src/main/java/ru/gb/homework1/Divide_response.txt
 /src/main/java/ru/gb/homework1/Divide(If IntA - valid)_response.txt
 /.idea/uiDesigner.xml
+/src/main/java/ru/gb/lesson4/builder/MyClass.java
+/src/main/java/ru/gb/lesson4/builder/MyClassBuilder.java
