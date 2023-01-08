@@ -18,17 +18,17 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="db.model" targetProject="src/main/java/ru/gb/lesson6">
+        <javaModelGenerator targetPackage="db.model" targetProject="src/main/java/ru/gb/homework6">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="db.mapper.xml" targetProject="src/main/java/ru/gb/lesson6">
+        <sqlMapGenerator targetPackage="db.mapper.xml" targetProject="src/main/java/ru/gb/homework6">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="db.dao"
-                             targetProject="src/main/java/ru/gb/lesson6">
+                             targetProject="src/main/java/ru/gb/homework6">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
