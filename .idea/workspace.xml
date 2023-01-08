@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eb84ce-b0cc-4063-809b-c60b773933af" name="Changes" comment="homework5 done">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/ExampleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/ExampleTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/dao/CategoriesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/dao/ProductsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/mapper/xml/CategoriesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/mapper/xml/ProductsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/model/Categories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/model/CategoriesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/model/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lesson6/db/model/ProductsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+    <list default="true" id="b0eb84ce-b0cc-4063-809b-c60b773933af" name="Changes" comment="lesson6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/api/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/api/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/dto/GetCategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/util/ConfigUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/util/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/util/PrettyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework6/util/RetrofitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework6/CRUDProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gb/homework6/GetCategoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/CreateProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/CreateProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/GetCategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/GetCategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/lesson5/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +56,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.5421965",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "two.files.diff.last.used.file": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson4/AbstractTest.java",
-    "two.files.diff.last.used.folder": "C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5421965&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/main/java/ru/gb/homework6/TestMain.java&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/GIGABYTE-PC/IdeaProjects/Java_BackendTest/src/test/java/ru/gb/lesson3&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.gb.homework4.builder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\Java_BackendTest\src\test\java\ru\gb\homework6" />
+      <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\Java_BackendTest\src\main\java\ru\gb\homework6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\Java_BackendTest\src\test\java\ru\gb" />
@@ -80,20 +86,7 @@
       <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\Java_BackendTest\src\main\java\ru\gb\lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleTestMain">
-    <configuration name="ExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.ExampleMain" />
-      <module name="Java_BackendTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GetCategoryTest.getCategoryByIdPositiveTest">
     <configuration name="ExampleTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.ExampleTestMain" />
       <module name="Java_BackendTest" />
@@ -107,59 +100,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CRUDProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDProductTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_BackendTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.homework5.*" />
+          <option name="PATTERN" value="ru.gb.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.homework5" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.homework5.CRUDProductTest" />
+      <option name="PACKAGE_NAME" value="ru.gb.homework6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework6.CRUDProductTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CRUDProductTest.getProductByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUDProductTest.createProductInFoodCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_BackendTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.homework5.*" />
+          <option name="PATTERN" value="ru.gb.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.homework5" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.homework5.CRUDProductTest" />
-      <option name="METHOD_NAME" value="getProductByIdTest" />
+      <option name="PACKAGE_NAME" value="ru.gb.homework6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework6.CRUDProductTest" />
+      <option name="METHOD_NAME" value="createProductInFoodCategoryTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_BackendTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.homework5.*" />
+          <option name="PATTERN" value="ru.gb.homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.homework5" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.homework5.GetCategoryTest" />
+      <option name="PACKAGE_NAME" value="ru.gb.homework6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework6.GetCategoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_BackendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.homework6" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework6.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.GetCategoryTest (1)" />
+        <item itemvalue="JUnit.CRUDProductTest (1)" />
+        <item itemvalue="JUnit.CRUDProductTest.createProductInFoodCategoryTest" />
         <item itemvalue="Application.ExampleTestMain" />
-        <item itemvalue="Application.ExampleMain" />
-        <item itemvalue="JUnit.GetCategoryTest" />
-        <item itemvalue="JUnit.CRUDProductTest" />
-        <item itemvalue="JUnit.CRUDProductTest.getProductByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671385738789</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson6">
+      <created>1673198643667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673198643667</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +275,7 @@
     <MESSAGE value="homework1" />
     <MESSAGE value="lesson3" />
     <MESSAGE value="homework4 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework4 done" />
+    <MESSAGE value="lesson6" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson6" />
   </component>
 </project>
